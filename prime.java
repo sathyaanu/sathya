@@ -5,9 +5,9 @@ Scanner sc=new Scanner(System.in);
 int a=sc.nextInt();
 int count=0;
 int j=0;
-for(int i=2;i<=n;i++)
+for(int i=2;i<=a;i++)
 {
-if(n%i==0)
+if(a%i==0)
 {
 count++;
 }
