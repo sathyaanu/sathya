@@ -16,5 +16,5 @@ if(count==2)
 j++;
 }
 }
-System.out.println(i);
+System.out.println(j);
 }
