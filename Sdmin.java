@@ -3,22 +3,22 @@ public class minimum
 {
 public static void main(String ar[])throws Exception
 {
-    int r,i,k;
-    int p[]=new int[100];
+    int r,i,mn;
+    int h[]=new int[100];
 Scanner sc=new Scanner(System.in);
 minimum m1=new minimum();
 String a=new String();
 a=sc.next();
-k=sc.nextInt();
+mn=sc.nextInt();
 int n=Integer.parseInt(a);
 i=0;
 while(n>0)
 {
 r=n%10;
-p[i++]=r;
+h[i++]=r;
 n/=10;
 }
-m1.sort(p,k,i);
+m1.sort(h,mn,i);
 }
 public void sort(int l[],int m,int g)
 {
